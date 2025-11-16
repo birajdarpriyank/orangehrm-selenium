@@ -21,8 +21,7 @@ public class base_class {
 		pro = new Properties();
 
 		try {
-			FileInputStream file = new FileInputStream(
-					projectPath + "/src/test/resources/properties_file/config.properties");
+			FileInputStream file = new FileInputStream("config.file");
 			pro.load(file);
 		} catch (FileNotFoundException e) {
 
