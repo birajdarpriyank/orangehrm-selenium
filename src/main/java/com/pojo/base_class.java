@@ -21,8 +21,7 @@ public class base_class {
 		pro = new Properties();
 
 		try {
-			FileInputStream file = new FileInputStream(
-					projectPath + "\\src\\test\\resources\\properties_file\\config.properties"); // "config.file" for
+			FileInputStream file = new FileInputStream("config.file"); // "config.file" for
 																									// the jenkins job  
 			// for local projectPath + "\\src\\test\\resources\\properties_file\\config.properties"
 			pro.load(file);
