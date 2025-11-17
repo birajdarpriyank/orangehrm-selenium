@@ -6,8 +6,10 @@
       <class name="com.tests.login_test">
         <methods>
           <include name="tearDown"/>
+          <include name="verifyOrangeHrmCopyrightHyperlink"/>
+          <include name="verifyLoginWithInvalidUsername"/>
           <include name="setUp"/>
-          <include name="verifyUsernameLabel"/>
+          <include name="verifyLoginWithInvalidPassword"/>
         </methods>
       </class> <!-- com.tests.login_test -->
     </classes>

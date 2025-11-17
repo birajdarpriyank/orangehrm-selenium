@@ -52,6 +52,18 @@ public class login_page {
 	@FindBy(xpath = "(//p[@class='oxd-text oxd-text--p orangehrm-copyright'])[2]")
 	private WebElement copyrightText;
 
+	@FindBy(linkText = "OrangeHRM, Inc")
+	private WebElement orangeHrmHyperlink;
+
+	@FindBy(xpath = "(//span[text()='Required'])[1]")
+	private WebElement requiredErrorUsername;
+
+	@FindBy(xpath = "(//span[text()='Required'])[2]")
+	private WebElement requiredErrorPassword;
+
+	@FindBy(xpath = "//p[text()='Invalid credentials']")
+	private WebElement invalidCredentialsError;
+
 	public boolean isLogoVisible() {
 		wait.waitForVisibility(logo);
 		return logo.isDisplayed();
@@ -98,5 +110,22 @@ public class login_page {
 
 	public String getDisplayedCopyrightText() {
 		return copyrightText.getText();
+	}
+
+	public copyright_page clickOnOrnageHrmHyperlink() {
+		orangeHrmHyperlink.click();
+		return new copyright_page();
+	}
+
+	public String getDisplayedErrorMessageUsername() {
+		return requiredErrorUsername.getText();
+	}
+
+	public String getDisplayedErrorMessagePassword() {
+		return requiredErrorPassword.getText();
+	}
+
+	public String getDisplayedErrorMessageCommon() {
+		return invalidCredentialsError.getText();
 	}
 }

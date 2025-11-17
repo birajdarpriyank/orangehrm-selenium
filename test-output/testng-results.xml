@@ -1,48 +1,178 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+<testng-results ignored="0" total="16" passed="13" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-15T17:02:49 IST" name="Default suite" finished-at="2025-11-15T17:03:20 IST" duration-ms="30693">
+  <suite started-at="2025-11-17T06:54:52 IST" name="Default suite" finished-at="2025-11-17T06:57:27 IST" duration-ms="155059">
     <groups>
     </groups>
-    <test started-at="2025-11-15T17:02:49 IST" name="Default test" finished-at="2025-11-15T17:03:20 IST" duration-ms="30693">
+    <test started-at="2025-11-17T06:54:52 IST" name="Default test" finished-at="2025-11-17T06:57:27 IST" duration-ms="155059">
       <class name="com.tests.login_test">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.login_test@71075444]" started-at="2025-11-15T17:02:49 IST" name="setUp" finished-at="2025-11-15T17:02:56 IST" duration-ms="6530" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:54:52 IST" name="setUp" finished-at="2025-11-17T06:55:08 IST" duration-ms="16490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyCurrentUrlOfPage()[pri:0, instance:com.tests.login_test@71075444]" started-at="2025-11-15T17:02:56 IST" name="verifyCurrentUrlOfPage" finished-at="2025-11-15T17:02:56 IST" duration-ms="51" status="PASS">
+        <test-method signature="verifyCurrentUrlOfPage()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:55:08 IST" name="verifyCurrentUrlOfPage" finished-at="2025-11-17T06:55:08 IST" duration-ms="74" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCurrentUrlOfPage -->
-        <test-method signature="verifyGetPassword()[pri:0, instance:com.tests.login_test@71075444]" started-at="2025-11-15T17:02:56 IST" name="verifyGetPassword" finished-at="2025-11-15T17:02:56 IST" duration-ms="320" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:55:08 IST" name="tearDown" finished-at="2025-11-17T06:55:08 IST" duration-ms="274" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyGetPassword -->
-        <test-method signature="verifyGetUsername()[pri:0, instance:com.tests.login_test@71075444]" started-at="2025-11-15T17:02:56 IST" name="verifyGetUsername" finished-at="2025-11-15T17:02:56 IST" duration-ms="49" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:55:08 IST" name="setUp" finished-at="2025-11-17T06:55:18 IST" duration-ms="9143" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyGetUsername -->
-        <test-method signature="verifyLogoTest()[pri:0, instance:com.tests.login_test@71075444]" started-at="2025-11-15T17:02:56 IST" name="verifyLogoTest" finished-at="2025-11-15T17:02:57 IST" duration-ms="714" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDisplayedCopyrightText()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:55:18 IST" name="verifyDisplayedCopyrightText" finished-at="2025-11-17T06:55:19 IST" duration-ms="1922" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLogoTest -->
-        <test-method signature="verifySuccessfullLogin()[pri:0, instance:com.tests.login_test@71075444]" started-at="2025-11-15T17:02:57 IST" name="verifySuccessfullLogin" finished-at="2025-11-15T17:02:59 IST" duration-ms="2066" status="PASS">
+        </test-method> <!-- verifyDisplayedCopyrightText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:55:19 IST" name="tearDown" finished-at="2025-11-17T06:55:20 IST" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySuccessfullLogin -->
-        <test-method signature="verifyUsernameLabel()[pri:0, instance:com.tests.login_test@71075444]" started-at="2025-11-15T17:02:59 IST" name="verifyUsernameLabel" finished-at="2025-11-15T17:03:19 IST" duration-ms="20109" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:55:20 IST" name="setUp" finished-at="2025-11-17T06:55:27 IST" duration-ms="7320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDisplayedPassword()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:55:27 IST" name="verifyDisplayedPassword" finished-at="2025-11-17T06:55:30 IST" duration-ms="3400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDisplayedPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:55:30 IST" name="tearDown" finished-at="2025-11-17T06:55:31 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:55:31 IST" name="setUp" finished-at="2025-11-17T06:55:39 IST" duration-ms="7934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDisplayedPasswordLabel()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:55:39 IST" name="verifyDisplayedPasswordLabel" finished-at="2025-11-17T06:55:42 IST" duration-ms="3333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDisplayedPasswordLabel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:55:42 IST" name="tearDown" finished-at="2025-11-17T06:55:42 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:55:42 IST" name="setUp" finished-at="2025-11-17T06:55:49 IST" duration-ms="6351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDisplayedUsername()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:55:49 IST" name="verifyDisplayedUsername" finished-at="2025-11-17T06:55:50 IST" duration-ms="1757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDisplayedUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:55:50 IST" name="tearDown" finished-at="2025-11-17T06:55:51 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:55:51 IST" name="setUp" finished-at="2025-11-17T06:55:56 IST" duration-ms="5912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDisplayedUsernameLabel()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:55:56 IST" name="verifyDisplayedUsernameLabel" finished-at="2025-11-17T06:55:58 IST" duration-ms="1302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDisplayedUsernameLabel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:55:58 IST" name="tearDown" finished-at="2025-11-17T06:55:58 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:55:58 IST" name="setUp" finished-at="2025-11-17T06:56:03 IST" duration-ms="5296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDisplayedVersionText()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:56:03 IST" name="verifyDisplayedVersionText" finished-at="2025-11-17T06:56:04 IST" duration-ms="890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDisplayedVersionText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:56:04 IST" name="tearDown" finished-at="2025-11-17T06:56:04 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:56:04 IST" name="setUp" finished-at="2025-11-17T06:56:09 IST" duration-ms="4998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyForgottenPasswordLink()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:56:09 IST" name="verifyForgottenPasswordLink" finished-at="2025-11-17T06:56:11 IST" duration-ms="1608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgottenPasswordLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:56:11 IST" name="tearDown" finished-at="2025-11-17T06:56:11 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:56:11 IST" name="setUp" finished-at="2025-11-17T06:56:16 IST" duration-ms="4984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithEmptyCredentials()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:56:16 IST" name="verifyLoginWithEmptyCredentials" finished-at="2025-11-17T06:56:18 IST" duration-ms="1336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithEmptyCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:56:18 IST" name="tearDown" finished-at="2025-11-17T06:56:18 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:56:18 IST" name="setUp" finished-at="2025-11-17T06:56:23 IST" duration-ms="5003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithInvalidCredentials()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:56:23 IST" name="verifyLoginWithInvalidCredentials" finished-at="2025-11-17T06:56:26 IST" duration-ms="2625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:56:26 IST" name="tearDown" finished-at="2025-11-17T06:56:26 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:56:26 IST" name="setUp" finished-at="2025-11-17T06:56:31 IST" duration-ms="4771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithInvalidPassword()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:56:31 IST" name="verifyLoginWithInvalidPassword" finished-at="2025-11-17T06:56:43 IST" duration-ms="12717" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //label[text()='Username']' (tried for 10 second(s) with 500 milliseconds interval)]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//span[text()='Required'])[2]"}
+  (Session info: chrome=142.0.7444.163)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2b341c3fd2c4991cb8e5e467b6c9fdcf, findElement {using=xpath, value=(//span[text()='Required'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\sadar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52379}, goog:processID: 2372, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52379/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b341c3fd2c4991cb8e5e467b6c9fdcf]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //label[text()='Username']' (tried for 10 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at com.utilities.wait_utility.waitForVisibility(wait_utility.java:22)
-at com.pom.login_page.getDisplayedUsernameLabel(login_page.java:69)
-at com.tests.login_test.verifyUsernameLabel(login_test.java:62)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//span[text()='Required'])[2]"}
+  (Session info: chrome=142.0.7444.163)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2b341c3fd2c4991cb8e5e467b6c9fdcf, findElement {using=xpath, value=(//span[text()='Required'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\sadar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52379}, goog:processID: 2372, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52379/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b341c3fd2c4991cb8e5e467b6c9fdcf
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.getText(Unknown Source)
+at com.pom.login_page.getDisplayedErrorMessagePassword(login_page.java:125)
+at com.tests.login_test.verifyLoginWithInvalidPassword(login_test.java:106)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -69,15 +199,43 @@ at org.testng.TestNG.run(TestNG.java:1079)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='Username']"}
-  (Session info: chrome=141.0.7390.123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:56:44 IST" name="tearDown" finished-at="2025-11-17T06:56:44 IST" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:56:44 IST" name="setUp" finished-at="2025-11-17T06:56:48 IST" duration-ms="4237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithInvalidUsername()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:56:48 IST" name="verifyLoginWithInvalidUsername" finished-at="2025-11-17T06:57:00 IST" duration-ms="11853" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//span[text()='Required'])[1]"}
+  (Session info: chrome=142.0.7444.163)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: '4.38.0', revision: '6b412e825c*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3c3e63624d40be56a8182c429ae4f38b, findElement {using=xpath, value=//label[text()='Username']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.123, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\sadar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62260}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62260/devtoo..., se:cdpVersion: 141.0.7390.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3c3e63624d40be56a8182c429ae4f38b
+Command: [0aa89cc79ceb33d515b0b1e11e147fb4, findElement {using=xpath, value=(//span[text()='Required'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\sadar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56994}, goog:processID: 8080, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56994/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0aa89cc79ceb33d515b0b1e11e147fb4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//span[text()='Required'])[1]"}
+  (Session info: chrome=142.0.7444.163)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0aa89cc79ceb33d515b0b1e11e147fb4, findElement {using=xpath, value=(//span[text()='Required'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\sadar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56994}, goog:processID: 8080, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56994/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0aa89cc79ceb33d515b0b1e11e147fb4
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -94,23 +252,132 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy14.isDisplayed(Unknown Source)
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:308)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:294)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:291)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-... 29 more
+at jdk.proxy2/jdk.proxy2.$Proxy15.getText(Unknown Source)
+at com.pom.login_page.getDisplayedErrorMessageUsername(login_page.java:121)
+at com.tests.login_test.verifyLoginWithInvalidUsername(login_test.java:94)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUsernameLabel -->
-        <test-method signature="verifyTitleOfPage()[pri:1, instance:com.tests.login_test@71075444]" started-at="2025-11-15T17:03:19 IST" name="verifyTitleOfPage" finished-at="2025-11-15T17:03:19 IST" duration-ms="26" status="PASS">
+        </test-method> <!-- verifyLoginWithInvalidUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:57:00 IST" name="tearDown" finished-at="2025-11-17T06:57:01 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:57:01 IST" name="setUp" finished-at="2025-11-17T06:57:03 IST" duration-ms="1966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogoTest()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:57:03 IST" name="verifyLogoTest" finished-at="2025-11-17T06:57:07 IST" duration-ms="4666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:57:07 IST" name="tearDown" finished-at="2025-11-17T06:57:08 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:57:08 IST" name="setUp" finished-at="2025-11-17T06:57:12 IST" duration-ms="4347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyOrangeHrmCopyrightHyperlink()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:57:12 IST" name="verifyOrangeHrmCopyrightHyperlink" finished-at="2025-11-17T06:57:13 IST" duration-ms="866" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [null] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [null] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.tests.login_test.verifyOrangeHrmCopyrightHyperlink(login_test.java:157)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrangeHrmCopyrightHyperlink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:57:13 IST" name="tearDown" finished-at="2025-11-17T06:57:13 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:57:13 IST" name="setUp" finished-at="2025-11-17T06:57:15 IST" duration-ms="1736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySuccessfullLogin()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:57:15 IST" name="verifySuccessfullLogin" finished-at="2025-11-17T06:57:21 IST" duration-ms="5536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfullLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:57:21 IST" name="tearDown" finished-at="2025-11-17T06:57:21 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:57:21 IST" name="setUp" finished-at="2025-11-17T06:57:26 IST" duration-ms="5461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTitleOfPage()[pri:1, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:57:26 IST" name="verifyTitleOfPage" finished-at="2025-11-17T06:57:26 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitleOfPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.login_test@71075444]" started-at="2025-11-15T17:03:19 IST" name="tearDown" finished-at="2025-11-15T17:03:20 IST" duration-ms="314" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.login_test@7d9d0818]" started-at="2025-11-17T06:57:26 IST" name="tearDown" finished-at="2025-11-17T06:57:27 IST" duration-ms="207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

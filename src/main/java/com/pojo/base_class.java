@@ -21,7 +21,10 @@ public class base_class {
 		pro = new Properties();
 
 		try {
-			FileInputStream file = new FileInputStream("config.file");
+			FileInputStream file = new FileInputStream(
+					projectPath + "\\src\\test\\resources\\properties_file\\config.properties"); // "config.file" for
+																									// the jenkins job  
+			// for local projectPath + "\\src\\test\\resources\\properties_file\\config.properties"
 			pro.load(file);
 		} catch (FileNotFoundException e) {
 
@@ -37,9 +40,7 @@ public class base_class {
 		if (browser.equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
-		}
-
-		else if (browser.equalsIgnoreCase("edge")) {
+		} else if (browser.equalsIgnoreCase("edge")) {
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
 		} else if (browser.equalsIgnoreCase("firefox")) {
@@ -49,7 +50,6 @@ public class base_class {
 			WebDriverManager.safaridriver().setup();
 			driver = new SafariDriver();
 		}
-
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
